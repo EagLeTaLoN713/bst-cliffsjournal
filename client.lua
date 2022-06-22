@@ -291,7 +291,7 @@ AddEventHandler('talon_placebait:startAnimation3', function(num,typey)
                     Citizen.InvokeNative(0x3D3D15AF7BCAAF83, 6, true, true)
                     Citizen.InvokeNative(0x64C59DD6834FA942, -384.7889404296875, 915.6282348632812, 118.48546600341797)
                     Citizen.InvokeNative(0x4426D65E029A4DC0, true) 
-                    TriggerEvent("vorp:TipBottom", "Go Back to Cliff.", 5000)
+                    TriggerEvent("vorp:TipBottom", "Skin The Bear Then Go Back to Roger.", 5000)
                     isOver = false
                 end    
           
