@@ -1,20 +1,51 @@
 Config = {}
 
-Config.rob = 'Press [~e~G~q~] to break into safe'
+Config.rob = 'Press [~e~G~q~] to read Cliffs Journal'
+Config.rob2 = 'Press [~e~G~q~] to place the Grizzly Bait'
 
 --Timer and zone size
 Config.ZoneSize = 2.0 -- Sizes of the zones
 Config.LockpickTime = 5000 -- in miliseconds
 Config.Policealert = 5000 -- in ms
-Config.Cooldown = 120000 -- Cooldown beetwen the robberys
+Config.Cooldown = 3600000 -- Cooldown beetwen the robberys
 
 Config.Items = {
-    "goldbar",
+    "bearclaw",
     "diamond",
 }
 
 
 Config.Banks = {
 
-	{ coords = vector3(1290.0882568359, -1312.4019775391, 76.039939880371), name = "Rhodes Bank" },
+	{ coords = vector3(-952.5794677734375, 2174.927490234375, 341.5976867675781), name = "Cliffs Cabin" },
+}
+
+
+Config.npcspawn = {
+    { x = -781.36474609375, y = 2727.714111328125, z = 340.9775695800781 }, 
+    { x = -784.36474609375, y = 2727.714111328125, z = 340.9775695800781 }, 
+    { x = -783.36474609375, y = 2727.714111328125, z = 340.9775695800781 }, 
+    { x = -780.36474609375, y = 2727.714111328125, z = 340.9775695800781 }, 
+    { x = -782.36474609375, y = 2727.714111328125, z = 340.9775695800781 }, 
+ 
+   
+   
+}
+
+Config.npcspawn2 = {
+    { x = -653.1351318359375, y = 2592.92431640625, z = 335.999267578125 },  
+    { x = -653.1351318359375, y = 2592.92431640625, z = 335.999267578125 },
+    { x = -653.1351318359375, y = 2592.92431640625, z = 335.999267578125 },
+    { x = -653.1351318359375, y = 2592.92431640625, z = 335.999267578125 },
+    { x = -653.1351318359375, y = 2592.92431640625, z = 335.999267578125 },
+    { x = -653.1351318359375, y = 2592.92431640625, z = 335.999267578125 },
+  
+    
+}
+
+Config.npcspawn3 = {
+    { x = -720.23, y = 2607.60, z = 333.81 },
+    { x = -735.98, y = 2676.36, z = 346.34 }, 
+    { x = -800.80, y = 2631.43, z = 347.77 }
+    
 }
